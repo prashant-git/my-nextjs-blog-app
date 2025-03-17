@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/PrashantJadhav/Documents/NextjsProjects/My_Nextjs_Blog_App/my-nextjs-blog-app/blog-app/app/api/data/postsData.js"],"sourcesContent":["const posts = [\r\n    { id: 1, title: \"Next.js 13 Features\", content: \"Learn the App Router!\" },\r\n    { id: 2, title: \"Server Components\", content: \"Boost your performance!\" }\r\n  ];\r\n  \r\n  export default posts;\r\n  "],"names":[],"mappings":";;;AAAA,MAAM,QAAQ;IACV;QAAE,IAAI;QAAG,OAAO;QAAuB,SAAS;IAAwB;IACxE;QAAE,IAAI;QAAG,OAAO;QAAqB,SAAS;IAA0B;CACzE;uCAEc","debugId":null}},
+    {"offset": {"line": 74, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/PrashantJadhav/Documents/NextjsProjects/My_Nextjs_Blog_App/my-nextjs-blog-app/blog-app/app/api/posts/route.js"],"sourcesContent":["import posts from '../data/postsData';\r\n\r\nexport async function GET() {\r\n  return Response.json(posts);\r\n}\r\n"],"names":[],"mappings":";;;AAAA;;AAEO,eAAe;IACpB,OAAO,SAAS,IAAI,CAAC,iIAAA,CAAA,UAAK;AAC5B","debugId":null}}]
+}

@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.*  
+
+# Logs
+logs/
+*.log
+logs/*.log
+*.log.*
+
+# OS/Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build and output
+dist/
+out/
+coverage/
+*.tsbuildinfo
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Typescript
+*.d.ts
+
+# Testing
+/coverage
+/test-results
+/.jest
+
+# Misc
+*.bak
+*.orig

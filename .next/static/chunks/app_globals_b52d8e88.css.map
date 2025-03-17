@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/globals.css"],"sourcesContent":["body {\r\n  font-family: Arial, sans-serif;\r\n  padding: 20px;\r\n}\r\n\r\nh1 {\r\n  color: #0070f3;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 10px;\r\n}\r\n\r\ninput, textarea {\r\n  width: 100%;\r\n  padding: 8px;\r\n}\r\n\r\nbutton {\r\n  background-color: #0070f3;\r\n  color: #fff;\r\n  border: none;\r\n  padding: 8px 16px;\r\n  cursor: pointer;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;AAIA;;;;;;AAMA;;;;;AAKA"}}]
+}
